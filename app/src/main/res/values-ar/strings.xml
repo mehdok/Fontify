@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="normal">عادي</string>
+    <string name="bold">بالخط العريض</string>
+    <string name="thin">نحيف ضعيف</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.mehdok.fontifysample.MainActivity"
+    >
+
+    <com.mehdok.fontify.TextViewNormal
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/normal"
+        android:textSize="@dimen/text_size"
+        />
+
+    <com.mehdok.fontify.TextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/bold"
+        android:textSize="@dimen/text_size"
+        />
+
+    <com.mehdok.fontify.TextViewThin
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/thin"
+        android:textSize="@dimen/text_size"
+        />
+
+    <com.mehdok.fontify.EditTextNormal
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/normal"
+        android:textSize="@dimen/text_size"
+        />
+
+    <com.mehdok.fontify.EditTextBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/bold"
+        android:textSize="@dimen/text_size"
+        />
+
+    <com.mehdok.fontify.EditTextThin
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/thin"
+        android:textSize="@dimen/text_size"
+        />
+
+    <com.mehdok.fontify.ButtonNormal
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/normal"
+        android:textSize="@dimen/text_size"
+        />
+
+    <com.mehdok.fontify.ButtonBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/bold"
+        android:textSize="@dimen/text_size"
+        />
+
+    <com.mehdok.fontify.ButtonThin
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_bottom"
+        android:text="@string/thin"
+        android:textSize="@dimen/text_size"
+        />
+
+</LinearLayout>

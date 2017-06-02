@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FontifySample</string>
+
+    <string name="normal">Normal</string>
+    <string name="bold">Bold</string>
+    <string name="thin">Thin</string>
+</resources>
