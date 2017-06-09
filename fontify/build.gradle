@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
@@ -19,6 +20,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -28,4 +34,17 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
+}
+
+publish {
+    userOrg = 'meh-dok'
+    groupId = 'com.mehdok.views'
+    uploadName = 'fontify'
+    artifactId = 'fontify'
+    repoName = 'public-maven'
+    publishVersion = '1.0.0-beta1'
+    desc = 'TextView, EditText and Button with custom fonts with normal, bold and thin style for different languages.'
+    website = 'https://github.com/mehdok/Fontify'
+    repository = 'https://github.com/mehdok/Fontify.git'
+    licences = ['GPL-3.0']
 }
