@@ -2,7 +2,7 @@ package com.mehdok.fontifysample;
 
 import android.app.Application;
 
-import com.mehdok.fontify.Fontify;
+import com.mehdok.views.Fontify;
 
 /**
  * @author mehdok (mehdok@gmail.com) on 6/2/2017.

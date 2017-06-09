@@ -1,4 +1,4 @@
-package com.mehdok.fontify;
+package com.mehdok.views;
 
 /**
  * @author mehdok (mehdok@gmail.com) on 6/2/2017.

@@ -1,4 +1,4 @@
-package com.mehdok.fontify;
+package com.mehdok.views;
 
 import org.junit.Test;
 

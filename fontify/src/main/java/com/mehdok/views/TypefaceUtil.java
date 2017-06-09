@@ -1,4 +1,4 @@
-package com.mehdok.fontify;
+package com.mehdok.views;
 
 import android.content.Context;
 import android.graphics.Typeface;

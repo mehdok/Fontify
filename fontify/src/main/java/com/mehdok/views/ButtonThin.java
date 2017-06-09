@@ -1,4 +1,4 @@
-package com.mehdok.fontify;
+package com.mehdok.views;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,20 +7,20 @@ import android.util.AttributeSet;
  * @author mehdok (mehdok@gmail.com) on 6/2/2017.
  */
 
-public class TextViewThin extends BaseTextView {
-    public TextViewThin(Context context) {
+public class ButtonThin extends BaseButton {
+    public ButtonThin(Context context) {
         super(context);
 
         init(FontType.THIN);
     }
 
-    public TextViewThin(Context context, AttributeSet attrs) {
+    public ButtonThin(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         init(FontType.THIN);
     }
 
-    public TextViewThin(Context context, AttributeSet attrs, int defStyleAttr) {
+    public ButtonThin(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         init(FontType.THIN);
